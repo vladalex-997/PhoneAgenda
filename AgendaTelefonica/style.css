@@ -1,0 +1,310 @@
+﻿body {
+    margin:0;
+    padding:0;
+    background-image: url('background.jpg');
+    background-size:cover;
+    
+
+}
+
+.loginbox{
+   
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    height:500px;
+    padding:80px 40px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.5);
+}
+
+.user{
+    padding-top:50px;
+    padding-bottom:0px;
+    width:100px;
+    /*height:100px;*/
+    overflow:hidden;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+    position:absolute;
+}
+h2{
+    padding-top:50px;
+    padding-bottom:30px;
+    margin:0;
+    text-align:center;
+    color:#fff;
+    
+}
+
+h4 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size:40px;
+}
+
+h3 {
+    color: #fff;
+    font-size:25px;
+}
+
+.lblemail, .lblepass{
+    font-weight:bold;
+    color:#fff;
+
+}
+
+.txtmail, .txtpass, .btnsubmit{
+    width:100%;
+    margin-bottom:20px;
+}
+
+
+.txtmail, .txtpass{
+    border:none;
+    border-bottom:3px solid #fff;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+    background-color:transparent;
+
+}
+
+::placeholder{
+    color:#fff
+}
+.btnsubmit{
+   
+    border:none;
+    outline:none;
+    height:40px;
+    font-size:16px;
+    color:#fff;
+    background-color:rgb(0,0,255);
+    cursor:pointer;
+    border-radius:20px;
+    transition: .3s ease-in-out;
+}
+
+.btnsubmit:hover{
+    background-color:rgb(0,0,0);
+
+}
+
+table {
+    max-width:none;
+    background-color: #000;
+    color:#fff;
+    font-size:18px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table 
+{
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+    .table th, .table td 
+    {
+ 
+        padding: 10px;
+        line-height: 20px;
+        text-align: left;
+        vertical-align: top;
+        border-top: 2px solid #dddddd;
+   /* white-space: nowrap;*/
+     }
+
+
+
+    .table th {
+        width: auto;
+        height: auto;
+        font-weight: bold;
+        background-color:#000;
+        color: #fff;
+    }
+
+    .table thead th {
+        vertical-align: bottom;
+       
+    }
+
+.cautaremail, .cautarenume{
+    font-size:18px;
+    color:#fff;
+    padding-right:20px;
+    padding-left:20px;
+   /* text-align:right;*/
+}
+
+.cautarefunctie {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 7px;
+    padding-left: 20px;
+    /* text-align:right;*/
+}
+
+.tbxcautaremail, .tbxcautarenume, .tbxcautarefunctie {
+    
+    border: 2px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #000;
+    padding-left:20px;
+   
+}
+
+.btncautare {
+    border: none;
+    outline: none;
+    height: 40px;
+    width:200px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(0,0,255);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    
+}
+
+    .btncautare:hover {
+        background-color: rgb(0,0,0);
+    }
+
+.divider {
+    width: 90px;
+    height: auto;
+    display: inline-block;
+}
+
+
+.parte{
+    float:right;
+}
+
+.partestanga{
+    float:left;
+}
+
+.partedreapta{
+    float:right;
+}
+
+.inserarelab {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.tbxinserare {
+    border: 2px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #000;
+    padding-left: 20px;
+}
+
+.centru {
+    width: 20px;
+    height: 700px;
+    display: inline-block;
+}
+
+.inserarelabemail {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.inserarelabfunctie {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 7px;
+    padding-left: 20px;
+}
+.inserarelabnume {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 18px;
+    padding-left: 20px;
+}
+.inserarelabnumar {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 8px;
+    padding-left: 20px;
+}
+
+.modlabId {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 12px;
+    padding-left: 20px;
+}
+.modlabemail {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.modlabnume {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 18px;
+    padding-left: 20px;
+}
+
+.modlabfunctie {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 8px;
+    padding-left: 20px;
+}
+
+.modlabnumar {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 8px;
+    padding-left: 20px;
+}
+
+.spatiu {
+    width: 10px;
+    height: auto;
+    display: inline-block;
+}
+
+.spatiulabel1 {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+}
+
+.spatiulabel2 {
+    width: 70px;
+    height: auto;
+    display: inline-block;
+}
+
+.spatiulabel3 {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+}
